@@ -1,0 +1,20 @@
+x 2049-06-29 2021-01-26 find this Todo.txt list online +casestudy type:inception
+don't invest more than a day - just send us what you've got +casestudy type:constraint
+find out how to read this file at https://github.com/todotxt/todo.txt +casestudy type:task
+set up a new Java web project with a framework you like +casestudy type:task
+use the absolute minimal amount of external dependencies type:constraint
+GET *this* file via HTTP +casestudy type:task
+parse it (you can ignore tags, contexts, due/completion dates if you want) +casestudy type:task
+make your API public (no auth), RESTful and use JSON +casestudy type:constraint
+(A) allow to get all TODOs via API +casestudy type:feature
+(A) allow to get a single TODO by ID (!) via API +casestudy type:feature
+(A) show that you know how to unit test +casestudy type:constraint
+(B) allow to filter TODOs by project via API +casestudy type:feature optional:true
+(C) allow to sort TODOs by priority via API +casestudy type:feature optional:true
+(Z) allow to get all TODOs in Todo.txt format as well +casestudy type:feature optional:true
+(Z) improve your Todo.txt parser by supporting contexts, tags and testing against gotchas.todo.txt (see README.md) type:feature optional:true
+(Z) allow to complete a TODO (in memory) +casestudy type:feature optional:true
+(Z) move TODOs with completion status in a in-memory DB (import on startup) +casestudy type:feature optional:true
+2049-06-30 send the project back via e-mail (zipped) so that we can build and run it locally +casestudy type:task
+please don't make our case study or your solution public +casestudy type:courtesy
+buy milk +shopping
